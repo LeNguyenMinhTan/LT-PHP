@@ -25,7 +25,7 @@
             $connection->query("SET NAMES utf8");
             //execute truy vấn
             $result = $connection->query($queryString);
-            $connection->close();
+           // $connection->close();
             return $result;
         }
         //Hàm trả về 1 ds kết quả
